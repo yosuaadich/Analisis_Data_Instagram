@@ -6,17 +6,17 @@ Tabel 1: Penggunaan Hashtag dan Engagement
 
       Post_ID	Hashtags	Likes	Comments	Shares
       
-        1	#travel #photo	120	15	5
+        1	   #travel #photo	120	  15      	5
       
-        2	#food #yummy	200	30	10
+        2	   #food #yummy	200	  30	      10
         
-        3	#fitness #gym	150	20	8
+        3	   #fitness #gym	150	  20	      8
         
-        4	#nature #beauty	180	25	12
+        4      #nature #beauty180	  25	      12
+         
+        5	#art #creative	220	35	      15
         
-        5	#art #creative	220	35	15
-        
-        6	#tech #innovation	170	22	9
+        6	#tech #innovation	170	22	      9
         
         7	#fashion #style	190	28	14
         
@@ -50,89 +50,89 @@ Tabel 2: Waktu Posting dan Engagement
 
         Post_ID	Time_Posted	Likes	Comments	Shares
 
-      1	08:00	100	10	3
+            1	08:00	      100	      10	      3
       
-      2	12:00	220	28	11
+            2	12:00	      220      	28	      11
       
-      3	18:00	170	20	9
+            3	18:00	170	20	9
       
-      4	21:00	200	25	13
+            4	21:00	200	25	13
       
-      5	23:00	130	15	5
+            5	23:00	130	15	5
       
-      6	07:00	110	12	4
+            6	07:00	110	12	4
       
-      7	14:00	190	22	10
+            7	14:00	190	22	10
+            
+            8	16:00	160	18	8
       
-      8	16:00	160	18	8
+            9	19:00	180	24	12
       
-      9	19:00	180	24	12
+            10	20:00	140	14	6
       
-      10	20:00	140	14	6
+            11	09:00	150	16	7
       
-      11	09:00	150	16	7
+            12	13:00	230	34	17
       
-      12	13:00	230	34	17
+            13	17:00	240	36	16
+            
+            14	22:00	180	25	13
       
-      13	17:00	240	36	16
+            15	06:00	160	18	8
       
-      14	22:00	180	25	13
+            16	10:00	120	12	5
       
-      15	06:00	160	18	8
+            17	15:00	200	28	14
       
-      16	10:00	120	12	5
+            18	11:00	170	22	10
       
-      17	15:00	200	28	14
+            19	05:00	110	12	4
       
-      18	11:00	170	22	10
-      
-      19	05:00	110	12	4
-      
-      20	04:00	100	10	3
+            20	04:00	100	10	3
 
 Tabel 3: Jenis Konten dan Engagement
 
         Post_ID	Content_Type	Likes	Comments	Shares
 
-      1	Photo	180	20	6
+            1	Photo	180	20	6
       
-      2	Video	250	35	15
+            2	Video	250	35	15
 
-      3	Story	150	18	7
+            3	Story	150	18	7
 
-      4	IGTV	200	25	10
+            4	IGTV	200	25	10
 
-      5	Reel	230	30	12
+            5	Reel	230	30	12
 
-      6	Live	170	22	8
+            6	Live	170	22	8
 
-      7	Carousel	210	28	13
+            7	Carousel	210	28	13
 
-      8	Highlight	190	24	9
+            8	Highlight	190	24	9
 
-      9	Guide	160	20	6
-
-      10	Meme	140	15	5
+            9	Guide	160	20	6
       
-      11	Photo	150	18	8
-
-      12	Video	240	38	18
-
-      13	Story	250	42	17
-
-      14	IGTV	180	28	12
-
-      15	Reel	170	25	10
-
-      16	Live	200	30	14
-
-      17	Carousel	190	28	13
+            10	Meme	140	15	5
       
-      18	Highlight	220	32	15
+            11	Photo	150	18	8
+
+            12	Video	240	38	18
+
+            13	Story	250	42	17
+
+            14	IGTV	180	28	12
+
+            15	Reel	170	25	10
+
+            16	Live	200	30	14
+
+            17	Carousel	190	28	13
       
-      19	Guide	210	30	14
+            18	Highlight	220	32	15
       
-      20	Meme	180	25	12
+            19	Guide	210	30	14
+      
+            20	Meme	180	25	12
 
 
 Langkah 2: Membuat Visualisasi
@@ -173,43 +173,53 @@ Berikut adalah interpretasi dari setiap analisis yang sudah dilakukan:
     Pada bar chart ini, kita memvisualisasikan engagement (Likes, Comments, Shares) berdasarkan waktu posting.
 
     Likes, Comments, Shares by Time Posted: Chart ini menunjukkan waktu tertentu ketika engagement tertinggi terjadi.
+
     Interpretasi: Jika engagement lebih tinggi pada waktu-waktu tertentu, ini bisa memberikan wawasan kapan waktu terbaik untuk memposting konten guna mendapatkan lebih banyak engagement.
 
-4. Pie Chart: Jenis Konten dan Likes
+5. Pie Chart: Jenis Konten dan Likes
     Pie chart ini menunjukkan distribusi Likes berdasarkan jenis konten.
 
     Likes by Content Type: Menunjukkan jenis konten yang paling banyak mendapatkan Likes.
+
     Interpretasi: Memahami jenis konten yang lebih disukai oleh audiens dapat membantu dalam strategi konten untuk meningkatkan engagement.
 
-5. Box Plot: Distribusi Engagement
+7. Box Plot: Distribusi Engagement
     Box plot ini menunjukkan distribusi dari Likes, Comments, dan Shares.
 
     Distribution of Engagement Metrics: Menunjukkan rentang, median, dan outlier dari masing-masing metrik.
+
     Interpretasi: Dapat membantu memahami variasi data dan mengidentifikasi outlier atau postingan yang memiliki engagement jauh lebih tinggi atau lebih rendah dibandingkan yang lain.
 
-6. Histogram: Distribusi Likes
+9. Histogram: Distribusi Likes
     Histogram ini menunjukkan distribusi frekuensi dari Likes.
 
     Likes Distribution: Menunjukkan seberapa sering jumlah Likes tertentu terjadi.
+
     Interpretasi: Membantu memahami distribusi dan kecenderungan data Likes. Jika distribusi tidak normal, ini bisa mempengaruhi analisis statistik lainnya.
 
-7. Korelasi Pearson: Tabel 1, 2, 3
-   Heatmap ini menunjukkan matriks korelasi antara Likes, Comments, dan Shares.
+11. Korelasi Pearson: Tabel 1, 2, 3
+    Heatmap ini menunjukkan matriks korelasi antara Likes, Comments, dan Shares.
     
-   Correlation Matrix: Nilai korelasi berkisar dari -1 hingga 1. Nilai mendekati 1 atau -1 menunjukkan hubungan linear kuat, sedangkan nilai mendekati 0 menunjukkan hubungan lemah atau tidak ada hubungan.
+    Correlation Matrix: Nilai korelasi berkisar dari -1 hingga 1. Nilai mendekati 1 atau -1 menunjukkan hubungan linear kuat, sedangkan nilai mendekati 0 menunjukkan hubungan lemah atau tidak ada hubungan.
     Interpretasi:
+     Korelasi positif tinggi antara Likes dan Comments menunjukkan bahwa postingan dengan banyak Likes cenderung juga mendapatkan banyak Comments.
 
-    Korelasi positif tinggi antara Likes dan Comments menunjukkan bahwa postingan dengan banyak Likes cenderung juga mendapatkan banyak Comments.
-    Korelasi positif tinggi antara Likes dan Shares menunjukkan bahwa postingan dengan banyak Likes cenderung juga dibagikan lebih sering.
-    Korelasi antara Comments dan Shares menunjukkan hubungan serupa.
-8. Analisis Skewness
+     Korelasi positif tinggi antara Likes dan Shares menunjukkan bahwa postingan dengan banyak Likes cenderung juga dibagikan lebih sering.
+
+     Korelasi antara Comments dan Shares menunjukkan hubungan serupa.
+    
+11. Analisis Skewness
     Histogram dengan kurva skewness menunjukkan distribusi data dan skewnessnya.
 
     Likes Skewness: Nilai skewness menunjukkan apakah distribusi Likes condong ke kanan (positif) atau ke kiri (negatif).
-    Comments Skewness: Menunjukkan skewness dari distribusi Comments.
-    Shares Skewness: Menunjukkan skewness dari distribusi Shares.
-        Interpretasi:
 
-        Skewness positif menunjukkan data condong ke kanan dengan lebih banyak nilai rendah dan beberapa nilai tinggi.
-        Skewness negatif menunjukkan data condong ke kiri dengan lebih banyak nilai tinggi dan beberapa nilai rendah.
-        Distribusi normal memiliki skewness mendekati 0.
+    Comments Skewness: Menunjukkan skewness dari distribusi Comments.
+
+    Shares Skewness: Menunjukkan skewness dari distribusi Shares.
+
+    Interpretasi:
+          Skewness positif menunjukkan data condong ke kanan dengan lebih banyak nilai rendah dan beberapa nilai tinggi.
+
+          Skewness negatif menunjukkan data condong ke kiri dengan lebih banyak nilai tinggi dan beberapa nilai rendah.
+
+          Distribusi normal memiliki skewness mendekati 0.
