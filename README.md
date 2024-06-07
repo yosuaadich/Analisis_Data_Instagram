@@ -4,47 +4,47 @@ Berikut adalah tiga contoh tabel data yang relevan untuk dianalisis:
 
 Tabel 1: Penggunaan Hashtag dan Engagement
 
-Post_ID	Hashtags	Likes	Comments	Shares
+        Post_ID	Hashtags	Likes	Comments	Shares
 
-1	#travel #photo	120	15	5
+        1	#travel #photo	120	15	5
 
-2	#food #yummy	200	30	10
+        2	#food #yummy	200	30	10
 
-3	#fitness #gym	150	20	8
+        3	#fitness #gym	150	20	8
 
-4	#nature #beauty	180	25	12
+        4	#nature #beauty	180	25	12
 
-5	#art #creative	220	35	15
+        5	#art #creative	220	35	15
 
 
 Tabel 2: Waktu Posting dan Engagement
 
-Post_ID	Time_Posted	Likes	Comments	Shares
+        Post_ID	Time_Posted	Likes	Comments	Shares
 
-1	08:00	100	10	3
+        1	08:00	100	10	3
 
-2	12:00	220	28	11
+        2	12:00	220	28	11
 
-3	18:00	170	20	9
+        3	18:00	170	20	9
 
-4	21:00	200	25	13
+        4	21:00	200	25	13
 
-5	23:00	130	15	5
+        5	23:00	130	15	5
 
 
 Tabel 3: Jenis Konten dan Engagement
 
-Post_ID	Content_Type	Likes	Comments	Shares
+        Post_ID	Content_Type	Likes	Comments	Shares
 
-1	Photo	180	20	6
+        1	Photo	180	20	6
 
-2	Video	250	35	15
+        2	Video	250	35	15
 
-3	Story	150	18	7
+        3	Story	150	18	7
 
-4	IGTV	200	25	10
+        4	IGTV	200	25	10
 
-5	Reel	230	30	12
+        5	Reel	230	30	12
 
 
 Langkah 2: Membuat Visualisasi
@@ -102,26 +102,26 @@ Berikut adalah interpretasi dari setiap analisis yang sudah dilakukan:
 5. Histogram: Distribusi Likes
     Histogram ini menunjukkan distribusi frekuensi dari Likes.
 
-Likes Distribution: Menunjukkan seberapa sering jumlah Likes tertentu terjadi.
-Interpretasi: Membantu memahami distribusi dan kecenderungan data Likes. Jika distribusi tidak normal, ini bisa mempengaruhi analisis statistik lainnya.
+    Likes Distribution: Menunjukkan seberapa sering jumlah Likes tertentu terjadi.
+    Interpretasi: Membantu memahami distribusi dan kecenderungan data Likes. Jika distribusi tidak normal, ini bisa mempengaruhi analisis statistik lainnya.
 
 6. Korelasi Pearson: Tabel 1, 2, 3
-Heatmap ini menunjukkan matriks korelasi antara Likes, Comments, dan Shares.
+   Heatmap ini menunjukkan matriks korelasi antara Likes, Comments, dan Shares.
+    
+   Correlation Matrix: Nilai korelasi berkisar dari -1 hingga 1. Nilai mendekati 1 atau -1 menunjukkan hubungan linear kuat, sedangkan nilai mendekati 0 menunjukkan hubungan lemah atau tidak ada hubungan.
+    Interpretasi:
 
-Correlation Matrix: Nilai korelasi berkisar dari -1 hingga 1. Nilai mendekati 1 atau -1 menunjukkan hubungan linear kuat, sedangkan nilai mendekati 0 menunjukkan hubungan lemah atau tidak ada hubungan.
-Interpretasi:
-
-Korelasi positif tinggi antara Likes dan Comments menunjukkan bahwa postingan dengan banyak Likes cenderung juga mendapatkan banyak Comments.
-Korelasi positif tinggi antara Likes dan Shares menunjukkan bahwa postingan dengan banyak Likes cenderung juga dibagikan lebih sering.
-Korelasi antara Comments dan Shares menunjukkan hubungan serupa.
+    Korelasi positif tinggi antara Likes dan Comments menunjukkan bahwa postingan dengan banyak Likes cenderung juga mendapatkan banyak Comments.
+    Korelasi positif tinggi antara Likes dan Shares menunjukkan bahwa postingan dengan banyak Likes cenderung juga dibagikan lebih sering.
+    Korelasi antara Comments dan Shares menunjukkan hubungan serupa.
 7. Analisis Skewness
-Histogram dengan kurva skewness menunjukkan distribusi data dan skewnessnya.
+    Histogram dengan kurva skewness menunjukkan distribusi data dan skewnessnya.
 
-Likes Skewness: Nilai skewness menunjukkan apakah distribusi Likes condong ke kanan (positif) atau ke kiri (negatif).
-Comments Skewness: Menunjukkan skewness dari distribusi Comments.
-Shares Skewness: Menunjukkan skewness dari distribusi Shares.
-Interpretasi:
+    Likes Skewness: Nilai skewness menunjukkan apakah distribusi Likes condong ke kanan (positif) atau ke kiri (negatif).
+    Comments Skewness: Menunjukkan skewness dari distribusi Comments.
+    Shares Skewness: Menunjukkan skewness dari distribusi Shares.
+        Interpretasi:
 
-Skewness positif menunjukkan data condong ke kanan dengan lebih banyak nilai rendah dan beberapa nilai tinggi.
-Skewness negatif menunjukkan data condong ke kiri dengan lebih banyak nilai tinggi dan beberapa nilai rendah.
-Distribusi normal memiliki skewness mendekati 0.
+        Skewness positif menunjukkan data condong ke kanan dengan lebih banyak nilai rendah dan beberapa nilai tinggi.
+        Skewness negatif menunjukkan data condong ke kiri dengan lebih banyak nilai tinggi dan beberapa nilai rendah.
+        Distribusi normal memiliki skewness mendekati 0.
