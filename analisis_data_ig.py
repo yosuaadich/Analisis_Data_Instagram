@@ -31,6 +31,10 @@ df1 = pd.DataFrame(data1)
 df2 = pd.DataFrame(data2)
 df3 = pd.DataFrame(data3)
 
+# Fungsi untuk menghitung skewness
+def calculate_skewness(series):
+    return series.skew()
+
 # Visualisasi Data
 
 # Jendela 1
@@ -110,6 +114,47 @@ plt.subplot(1, 2, 2)
 correlation_matrix3 = df3[['Likes', 'Comments', 'Shares']].corr()
 sns.heatmap(correlation_matrix3, annot=True, cmap='coolwarm', linewidths=0.5)
 plt.title('Correlation Matrix of Engagement Metrics (Content Type)')
+
+plt.tight_layout()
+plt.show()
+
+# Analisis Skewness
+
+# Jendela 5
+plt.figure(figsize=(12, 6))
+
+# Skewness Likes
+plt.subplot(1, 2, 1)
+sns.histplot(df1['Likes'], kde=True, color='skyblue', edgecolor='black')
+likes_skewness = calculate_skewness(df1['Likes'])
+plt.title(f'Likes Distribution (Skewness: {likes_skewness:.2f})')
+plt.xlabel('Likes')
+plt.ylabel('Frequency')
+plt.grid(True)
+
+# Skewness Comments
+plt.subplot(1, 2, 2)
+sns.histplot(df1['Comments'], kde=True, color='lightgreen', edgecolor='black')
+comments_skewness = calculate_skewness(df1['Comments'])
+plt.title(f'Comments Distribution (Skewness: {comments_skewness:.2f})')
+plt.xlabel('Comments')
+plt.ylabel('Frequency')
+plt.grid(True)
+
+plt.tight_layout()
+plt.show()
+
+# Jendela 6
+plt.figure(figsize=(12, 6))
+
+# Skewness Shares
+plt.subplot(1, 2, 1)
+sns.histplot(df1['Shares'], kde=True, color='lightcoral', edgecolor='black')
+shares_skewness = calculate_skewness(df1['Shares'])
+plt.title(f'Shares Distribution (Skewness: {shares_skewness:.2f})')
+plt.xlabel('Shares')
+plt.ylabel('Frequency')
+plt.grid(True)
 
 plt.tight_layout()
 plt.show()
