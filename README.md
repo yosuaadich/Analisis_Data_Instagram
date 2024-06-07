@@ -4,7 +4,7 @@ Berikut adalah tiga contoh tabel data yang relevan untuk dianalisis:
 
 Tabel 1: Penggunaan Hashtag dan Engagement
   
-   Post_ID	Hashtags	Likes	Comments	Shares
+     Post_ID	Hashtags	Likes	Comments	Shares
    
    1	#travel #photo	120	15	5
    
