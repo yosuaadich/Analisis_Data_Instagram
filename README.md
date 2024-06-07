@@ -3,50 +3,50 @@ Berikut adalah tiga contoh tabel data yang relevan untuk dianalisis:
 
 
 Tabel 1: Penggunaan Hashtag dan Engagement
-Post_ID	Hashtags	Likes	Comments	Shares
-1	#travel #photo	120	15	5
-2	#food #yummy	200	30	10
-3	#fitness #gym	150	20	8
-4	#nature #beauty	180	25	12
-5	#art #creative	220	35	15
-6	#tech #innovation	170	22	9
-7	#fashion #style	190	28	14
-8	#music #concert	210	32	11
-9	#health #wellness	160	18	7
-10	#education #learn	140	16	6
-11	#fun #friends	130	14	8
-12	#work #office	240	40	20
-13	#weekend #relax	250	45	18
-14	#summer #beach	180	25	13
-15	#love #romance	170	22	12
-16	#family #home	200	30	15
-17	#holiday #trip	190	28	14
-18	#city #urban	220	32	17
-19	#mountain #hiking	210	30	16
-20	#pets #animals	180	25	12
+   Post_ID	Hashtags	Likes	Comments	Shares
+   1	#travel #photo	120	15	5
+   2	#food #yummy	200	30	10
+   3	#fitness #gym	150	20	8
+   4	#nature #beauty	180	25	12
+   5	#art #creative	220	35	15
+   6	#tech #innovation	170	22	9
+   7	#fashion #style	190	28	14
+   8	#music #concert	210	32	11
+   9	#health #wellness	160	18	7
+   10	#education #learn	140	16	6
+   11	#fun #friends	130	14	8
+   12	#work #office	240	40	20
+   13	#weekend #relax	250	45	18
+   14	#summer #beach	180	25	13
+   15	#love #romance	170	22	12
+   16	#family #home	200	30	15
+   17	#holiday #trip	190	28	14
+   18	#city #urban	220	32	17
+   19	#mountain #hiking	210	30	16
+   20	#pets #animals	180	25	12
 
 Tabel 2: Waktu Posting dan Engagement
-Post_IDTime_PostedLikes	CommentsShares
-1	08:00	100	10	3
-2	12:00	220	28	11
-3	18:00	170	20	9
-4	21:00	200	25	13
-5	23:00	130	15	5
-6	07:00	110	12	4
-7	14:00	190	22	10
-8	16:00	160	18	8
-9	19:00	180	24	12
-10	20:00	140	14	6
-11	09:00	150	16	7
-12	13:00	230	34	17
-13	17:00	240	36	16
-14	22:00	180	25	13
-15	06:00	160	18	8
-16	10:00	120	12	5
-17	15:00	200	28	14
-18	11:00	170	22	10
-19	05:00	110	12	4
-20	04:00	100	10	3
+   Post_IDTime_PostedLikes	CommentsShares
+   1	08:00	100	10	3
+   2	12:00	220	28	11
+   3	18:00	170	20	9
+   4	21:00	200	25	13
+   5	23:00	130	15	5
+   6	07:00	110	12	4
+   7	14:00	190	22	10
+   8	16:00	160	18	8
+   9	19:00	180	24	12
+   10	20:00	140	14	6
+   11	09:00	150	16	7
+   12	13:00	230	34	17
+   13	17:00	240	36	16
+   14	22:00	180	25	13
+   15	06:00	160	18	8
+   16	10:00	120	12	5
+   17	15:00	200	28	14
+   18	11:00	170	22	10
+   19	05:00	110	12	4
+   20	04:00	100	10	3
 
 Tabel 3: Jenis Konten dan Engagement
 Post_ID Content_Type Likes Comments Shares
