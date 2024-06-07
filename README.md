@@ -4,18 +4,27 @@ Berikut adalah tiga contoh tabel data yang relevan untuk dianalisis:
 
 Tabel 1: Penggunaan Hashtag dan Engagement
 
-        Post_ID	Hashtags	Likes	Comments	Shares
-
+      Post_ID	Hashtags	Likes	Comments	Shares\ 
         1	#travel #photo	120	15	5
-
         2	#food #yummy	200	30	10
-
         3	#fitness #gym	150	20	8
-
         4	#nature #beauty	180	25	12
-
         5	#art #creative	220	35	15
-
+        6	#tech #innovation	170	22	9
+        7	#fashion #style	190	28	14
+        8	#music #concert	210	32	11
+        9	#health #wellness	160	18	7
+        10	#education #learn	140	16	6
+        11	#fun #friends	130	14	8
+        12	#work #office	240	40	20
+        13	#weekend #relax	250	45	18
+        14	#summer #beach	180	25	13
+        15	#love #romance	170	22	12
+        16	#family #home	200	30	15
+        17	#holiday #trip	190	28	14
+        18	#city #urban	220	32	17
+        19	#mountain #hiking	210	30	16
+        20	#pets #animals	180	25	12
 
 Tabel 2: Waktu Posting dan Engagement
 
@@ -58,54 +67,54 @@ Untuk analisis statistik keterkaitan antara data-data ini, kita dapat menggunaka
 Langkah 4: Visualisasi Keterkaitan Data
 Menggunakan heatmap, kita bisa melihat hubungan korelasi antara berbagai metrik.
 
+![Screenshot (4)](https://github.com/yosuaadich/Analisis_Data_Instagram/assets/152783601/c249e1dc-c312-4196-a419-d3f5f035df35)
 
+![Screenshot (5)](https://github.com/yosuaadich/Analisis_Data_Instagram/assets/152783601/5735137d-dc50-42ac-9334-08f0231bca52)
 
-![Screenshot (174)](https://github.com/yosuaadich/Analisis_Data_Instagram/assets/152783601/c46e4175-f9ea-4026-9163-09898a78c8ed)
+![Screenshot (6)](https://github.com/yosuaadich/Analisis_Data_Instagram/assets/152783601/2bf93517-6dfe-477c-8e88-96cc42ed49b7)
 
-![Screenshot (175)](https://github.com/yosuaadich/Analisis_Data_Instagram/assets/152783601/65db1ea9-4156-4b42-ad74-82048067c6e8)
+![Screenshot (7)](https://github.com/yosuaadich/Analisis_Data_Instagram/assets/152783601/d4e12d9a-ee1d-4ea3-99a2-9272a7454956)
 
-![Screenshot (176)](https://github.com/yosuaadich/Analisis_Data_Instagram/assets/152783601/7d409eaa-d8f5-4135-aa8b-23472f959e70)
+![Screenshot (9)](https://github.com/yosuaadich/Analisis_Data_Instagram/assets/152783601/fcc6c50c-60ac-4179-ad42-d9dd7fc80269)
 
-![Screenshot (177)](https://github.com/yosuaadich/Analisis_Data_Instagram/assets/152783601/098f08e8-c404-429d-835c-0bb544ba5a81)
-
-![Screenshot (2)](https://github.com/yosuaadich/Analisis_Data_Instagram/assets/152783601/bca7a997-938f-48aa-8c25-5c9eb3c90ab8)
-
-![Screenshot (3)](https://github.com/yosuaadich/Analisis_Data_Instagram/assets/152783601/d5a3903a-24e0-436f-92e9-1cf7eaeeac3d)
+![Screenshot (10)](https://github.com/yosuaadich/Analisis_Data_Instagram/assets/152783601/a522aa9d-d2d3-46c9-8f02-06fbde787403)
 
 Berikut adalah interpretasi dari setiap analisis yang sudah dilakukan:
 
 1. Scatter Plot: Hashtags vs Engagement
-    Pada scatter plot pertama, kita memvisualisasikan hubungan antara Likes dengan Comments dan Likes dengan Shares.
+   Pada scatter plot pertama, kita memvisualisasikan hubungan antara Likes dengan Comments dan Likes dengan Shares.
 
-    Likes vs Comments: Jika titik-titik cenderung membentuk pola linear, ini menunjukkan adanya hubungan antara jumlah Likes dan jumlah Comments.
-    Likes vs Shares: Sama dengan Likes vs Comments, jika ada pola linear, ini menunjukkan hubungan antara jumlah Likes dan jumlah Shares.
-    Interpretasi: Jika ada hubungan yang jelas (positif atau negatif) antara Likes dan Comments atau Likes dan Shares, ini bisa menunjukkan bahwa postingan dengan lebih banyak Likes cenderung mendapatkan lebih banyak Comments dan Shares.
+   Likes vs Comments: Jika titik-titik cenderung membentuk pola linear, ini menunjukkan adanya hubungan antara jumlah Likes dan jumlah Comments.
 
-2. Bar Chart: Waktu Posting dan Engagement
+   Likes vs Shares: Sama dengan Likes vs Comments, jika ada pola linear, ini menunjukkan hubungan antara jumlah Likes dan jumlah Shares.
+
+   Interpretasi: Jika ada hubungan yang jelas (positif atau negatif) antara Likes dan Comments atau Likes dan Shares, ini bisa menunjukkan bahwa postingan dengan lebih banyak Likes cenderung mendapatkan lebih banyak Comments dan Shares.
+
+3. Bar Chart: Waktu Posting dan Engagement
     Pada bar chart ini, kita memvisualisasikan engagement (Likes, Comments, Shares) berdasarkan waktu posting.
 
     Likes, Comments, Shares by Time Posted: Chart ini menunjukkan waktu tertentu ketika engagement tertinggi terjadi.
     Interpretasi: Jika engagement lebih tinggi pada waktu-waktu tertentu, ini bisa memberikan wawasan kapan waktu terbaik untuk memposting konten guna mendapatkan lebih banyak engagement.
 
-3. Pie Chart: Jenis Konten dan Likes
+4. Pie Chart: Jenis Konten dan Likes
     Pie chart ini menunjukkan distribusi Likes berdasarkan jenis konten.
 
     Likes by Content Type: Menunjukkan jenis konten yang paling banyak mendapatkan Likes.
     Interpretasi: Memahami jenis konten yang lebih disukai oleh audiens dapat membantu dalam strategi konten untuk meningkatkan engagement.
 
-4. Box Plot: Distribusi Engagement
+5. Box Plot: Distribusi Engagement
     Box plot ini menunjukkan distribusi dari Likes, Comments, dan Shares.
 
     Distribution of Engagement Metrics: Menunjukkan rentang, median, dan outlier dari masing-masing metrik.
     Interpretasi: Dapat membantu memahami variasi data dan mengidentifikasi outlier atau postingan yang memiliki engagement jauh lebih tinggi atau lebih rendah dibandingkan yang lain.
 
-5. Histogram: Distribusi Likes
+6. Histogram: Distribusi Likes
     Histogram ini menunjukkan distribusi frekuensi dari Likes.
 
     Likes Distribution: Menunjukkan seberapa sering jumlah Likes tertentu terjadi.
     Interpretasi: Membantu memahami distribusi dan kecenderungan data Likes. Jika distribusi tidak normal, ini bisa mempengaruhi analisis statistik lainnya.
 
-6. Korelasi Pearson: Tabel 1, 2, 3
+7. Korelasi Pearson: Tabel 1, 2, 3
    Heatmap ini menunjukkan matriks korelasi antara Likes, Comments, dan Shares.
     
    Correlation Matrix: Nilai korelasi berkisar dari -1 hingga 1. Nilai mendekati 1 atau -1 menunjukkan hubungan linear kuat, sedangkan nilai mendekati 0 menunjukkan hubungan lemah atau tidak ada hubungan.
@@ -114,7 +123,7 @@ Berikut adalah interpretasi dari setiap analisis yang sudah dilakukan:
     Korelasi positif tinggi antara Likes dan Comments menunjukkan bahwa postingan dengan banyak Likes cenderung juga mendapatkan banyak Comments.
     Korelasi positif tinggi antara Likes dan Shares menunjukkan bahwa postingan dengan banyak Likes cenderung juga dibagikan lebih sering.
     Korelasi antara Comments dan Shares menunjukkan hubungan serupa.
-7. Analisis Skewness
+8. Analisis Skewness
     Histogram dengan kurva skewness menunjukkan distribusi data dan skewnessnya.
 
     Likes Skewness: Nilai skewness menunjukkan apakah distribusi Likes condong ke kanan (positif) atau ke kiri (negatif).
